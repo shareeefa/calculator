@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+   
+</head>
+<body>
+  <div class="cal">
+        <div>
+            <input class="textbox" type="text" placeholder="0" id="result" readonly>
+        </div>
+    <div class="table">
+        <table>
+            <tr>
+                <td><button onclick="displayContent('7')">7</button></td>
+                <td><button onclick="displayContent('8')">8</button></td>
+                <td><button onclick="displayContent('9')">9</button></td>
+                <td><button onclick="displayContent('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayContent('6')">6</button></td>
+                <td><button onclick="displayContent('5')">5</button></td>
+                <td><button onclick="displayContent('4')">4</button></td>
+                <td><button onclick="displayContent('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayContent('3')">3</button></td>
+                <td><button onclick="displayContent('2')">2</button></td>
+                <td><button onclick="displayContent('1')">1</button></td>
+                <td><button onclick="displayContent('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayContent('0')">0</button></td>
+                <td><button onclick="displayContent('+')">+</button></td>
+                <td><button onclick="calcOutput()">=</button></td>
+                <td><button onclick="calcClear()">AC</button></td>
+            </tr>
+            <button onclick="removeLastDigit()">&#9003</button>
+        </table>
+    </div>
+  </div>
+ 
+</body>
+<script src="./main.js"></script>
+</html>

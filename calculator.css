@@ -1,0 +1,24 @@
+table{
+    width: 300px;
+    height: 360px;
+    background-color: black;
+    padding-right: 0px;
+}
+button{
+    border-color: white;
+    padding: 25px;
+    background-color: black;
+    color: white;
+}
+.cal{
+    border: solid black;
+    width: 300px;
+    height: 480px;
+    margin-left: 500px;
+    margin-top: 80px;
+    background-color: black;
+}
+.textbox{
+    width: 295px;
+    height: 45px;
+}
